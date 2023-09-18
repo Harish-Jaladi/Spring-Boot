@@ -35,7 +35,6 @@ public class Main {
         return response;
     }
     record Person(String name,int age, double savings){
-
     }
     record PathResponse(
             String greet,
